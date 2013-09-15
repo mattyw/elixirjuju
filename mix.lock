@@ -1,0 +1,8 @@
+[ "finalizer": {:git, "git://github.com/meh/elixir-finalizer.git", "9c38d9145824a46c66f1a010e137a953a6c78e04", []},
+  "httpotion": {:git, "git://github.com/myfreeweb/httpotion.git", "0fbc23d4bc03182d6705590be4c153f412cae012", []},
+  "ibrowse": {:git, "git://github.com/cmullaparthi/ibrowse.git", "866b0ff5aca229f1ef53653eabc8ed1720c13cd6", []},
+  "jsonex": {:git, "git://github.com/marcelog/jsonex.git", "746c8492d66e130ee74cb2d857f8458fe3a2c0e2", [{:tag, "2.0"}]},
+  "jsx": {:git, "git://github.com/talentdeficit/jsx.git", "cb14b92a228e51f7bdcaa7eb17f035e4a5c0b47d", [{:tag, "v1.3.3"}]},
+  "resource": {:git, "git://github.com/tonyrog/resource.git", "37264ec960263cec0df8d6db0da818297b8d5771", []},
+  "socket": {:git, "git://github.com/meh/elixir-socket.git", "db2590c8476ed220a8e02d41137d472a60cd009c", []} ]
+  
