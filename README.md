@@ -9,5 +9,10 @@ pid <- Elixirjuju.deploy("wordpress", "cs:precise/wordpress", 1)
 pid <- Elixirjuju.deploy("mysql", "cs:precise/mysql", 1)        
 pid <- Elixirjuju.add_relation("wordpress", "mysql")
 ```
-
 This would connect to the juju bootstrap node, then deploy wordpress and mysql charms and connect the two togther
+
+To watch for changes:
+```elixir
+pid <- Elixirjuju.watch_all()
+Elixirjuju.watch(pid)
+```
